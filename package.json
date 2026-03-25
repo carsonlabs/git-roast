@@ -1,0 +1,37 @@
+{
+  "name": "git-roast",
+  "version": "1.0.0",
+  "description": "A sarcastic performance review generated from your actual git history",
+  "type": "module",
+  "bin": {
+    "git-roast": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "node dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "git",
+    "roast",
+    "humor",
+    "cli",
+    "developer-humor",
+    "performance-review",
+    "commit-history"
+  ],
+  "license": "MIT",
+  "author": "Carson Roell",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "ora": "^9.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2"
+  }
+}
